@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BCA496FBFD25CEC09E17FC3479985050 /* Hansel */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A94DF378C5E80DEE6AEB7CD43EA8D48D /* Build configuration list for PBXAggregateTarget "Hansel" */;
+			buildPhases = (
+			);
+			dependencies = (
+				12BF0D13D2C09BF4133D2CEE673D2A86 /* PBXTargetDependency */,
+			);
+			name = Hansel;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0BE49A53D14DB497E53BCB7507527515 /* EasyTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5815B2409698D9013C9AF0552A74941 /* EasyTipView.swift */; };
+		0DBBAD19978C360FC79D37EA4A8A06B6 /* ximage@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1FC9044C3B957E14F938D4197D9A2D /* ximage@1x.png */; };
+		1221EC1BC2B602E5751D1EBCD1B6A098 /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C08E9AF85600FB8655E96F275EDF1D4 /* checkmark@3x.png */; };
+		23E168D90A3873ED0F628BEA65F87EAF /* starFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1ACC37C608B1C3AA8BF4E8154C378C /* starFilled@2x.png */; };
+		2C50C276150F1AE4FBB2A1344022C850 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE89588A33ABA9D594D2D3D9A92E7D6 /* heart@2x.png */; };
+		2CAE37ED4D9349120C1C12879B735A93 /* hotspot_circle1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A444F70E45A1F064EFCEA5CC0508E3 /* hotspot_circle1@1x.png */; };
+		2D24FACC24B45AD0B8F682A250694482 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E55E231D4D635AC60ABF0AB4C4C0843D /* checkmark@2x.png */; };
+		3276BE9E5389580BDA769BAF4D2A7788 /* thumbupFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E50755876E0E68E881A5AD1F91C26E /* thumbupFilled@2x.png */; };
+		33EF2A65EF26466B6E2C2C51C6B5D067 /* thumbup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E950C53127C108ACADD3525EE9ACD9 /* thumbup@3x.png */; };
+		386F72625B5DAE576CDC9A48FD473BF5 /* star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D7BA619C017F23AACBB6251B99BA3C /* star@3x.png */; };
+		401A277473C4218BD9F16D510E1E3B7F /* thumbupFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 429623CC30D810437E43F2526F798911 /* thumbupFilled@3x.png */; };
+		574B1861CFFC1DB593EE69C06FF86214 /* heartFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17C1AC1B78BCE0DBE9B4147BAD26A76 /* heartFilled@1x.png */; };
+		5FD09EF45E31AAA4F9F15957BE8A7E4C /* hotspot_question@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F63E8C896EB64F18F9275E76FCD7F0 /* hotspot_question@3x.png */; };
+		60620097C4A6FA4289ED3BAACDCE77A8 /* starFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF5171C139DAD587DD0D76A67E2A154 /* starFilled@3x.png */; };
+		6B8266456F55A5BC56914F5883E0CBC8 /* checkmark@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 899A1B6EAA6EFB821D9837C3D82F4A67 /* checkmark@1x.png */; };
+		6CE7048A85B0617691497A79F9ECD9EF /* heart@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D8551E68ACB2DAAC167C85F5501CA /* heart@1x.png */; };
+		6E613CA585162F824E049043F6C71612 /* Pods-Mars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA059E2E249DC71AC3A4D405D3B3EA1A /* Pods-Mars-dummy.m */; };
+		6FCE72BAFD724470546C61EECDAC57D9 /* hotspot_circle2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C89F9FA561E1804B0D469B625F9CB289 /* hotspot_circle2@2x.png */; };
+		6FE4D8047E6B7610182C255D0AF1798C /* starFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045347FD73EB7E96ABE5DC267B907AB1 /* starFilled@1x.png */; };
+		7A7C8DDF140FFEEF84007F34A137C627 /* thumbup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50044054FEBB3DFFBA54C158AEC6500 /* thumbup@2x.png */; };
+		85D51315D56BBA4761C3470A524EFA7D /* ximage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415D8E78C10ABE7DA38AF8A475FCB578 /* ximage@3x.png */; };
+		8875A7B9D5EB0ACD50D8A57F3B472F71 /* ximage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E2D9EE15FD2072DDA65B3F32E7A3BD /* ximage@2x.png */; };
+		8E0DF115FEFA79E05477ED6A01E736F6 /* hotspot_circle1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C94C086A6DDCC35D98C71860D53B0AC4 /* hotspot_circle1@2x.png */; };
+		91BBD68BE2E7FAF113E3486679EF546A /* EasyTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D916EFF82B844BEA34DBBDE4FD2B87 /* EasyTipView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		929C60CA5AC85DDB46B7B40CD458CDFB /* thumbup@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F695271147713EEC255A3B831207C8A /* thumbup@1x.png */; };
+		93951739D37A82CC092BFB895C32A7A7 /* Pods-Mars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB723E5629668AD0CFB8B1DE9A7989E /* Pods-Mars-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		956E1087C5C2D4EF6654DC37A7FC781A /* hotspot_circle1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65622C99FB459AE56D7ED804F02249C9 /* hotspot_circle1@3x.png */; };
+		9596D695D4BA43CE88CAA99D03177F6A /* heartFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56FAC973540B6A690081A3A32980BD88 /* heartFilled@3x.png */; };
+		97FAF212F745448DE6A238F075AE3044 /* EasyTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E9700F3B12E7CB7DD63DE8482CD00D /* EasyTipView-dummy.m */; };
+		ACA41708343DD82DCF9533D89869E105 /* hotspot_question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9259CCAAB6F2EED5C03047C99AEEEC0 /* hotspot_question@2x.png */; };
+		C4B6BF748AC2D055CF9D86FDF0627DA5 /* thumbupFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687F35769A8385607C21EF052811590C /* thumbupFilled@1x.png */; };
+		C567487D28FDAC1191CCCFFF6CDA8A07 /* hotspot_circle2@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BC4A53127B067A79B622C80C54492 /* hotspot_circle2@1x.png */; };
+		D80E135E28E30D9E2C2ACBA74BB38FA7 /* heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0494DC5E6D6E10EE0B2A7CF5D48847 /* heart@3x.png */; };
+		E4E5838D06B0E0C600BA19B9DE3E8308 /* hotspot_question@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31962031CAC32AB01FF39AABC0DAAC23 /* hotspot_question@1x.png */; };
+		E510A3C81C77A089FBEEB6EF31396EC8 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83384A596E45C18676BF6D1E4E2BDB /* UIKitExtensions.swift */; };
+		E8A4CFF3DBBEE7CE33EFF54C0F31B4DC /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7771BD26E3DDBF16353953081E70CA7 /* star@2x.png */; };
+		F4B21A962223C2F289BAB85BC2DEE4D5 /* star@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D4A1A182640855F170FC192C0B65BA /* star@1x.png */; };
+		F506117F43E6E7972F96499CC67B3103 /* heartFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6C06B144D9330D7D7F4F0316B4273C /* heartFilled@2x.png */; };
+		F630CE0A5E5FCEB50BF1245B68F9256F /* hotspot_circle2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFEF51A53A17AA2B51174162EDCD0E4 /* hotspot_circle2@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CDB1ED9028A284262DAB2A139362650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA496FBFD25CEC09E17FC3479985050;
+			remoteInfo = Hansel;
+		};
+		AA95912200CD41AE17A31E5F06B79943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F9737818AD2D5A3E90EFBD983DC148F;
+			remoteInfo = "Hansel-iohanseliOS";
+		};
+		EE0026F50FDADD1453D575F9FE3F0E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048D21E3C8151CD23D428D38093E1538;
+			remoteInfo = EasyTipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0081F7F946512152F9EC6C6BEBD4D7C9 /* Hansel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hansel.framework; path = Hansel/framework/Hansel.framework; sourceTree = "<group>"; };
+		0222C0BF9E6D29CA7E4B10A23D4BBD9F /* Pods-Mars-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mars-frameworks.sh"; sourceTree = "<group>"; };
+		045347FD73EB7E96ABE5DC267B907AB1 /* starFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "starFilled@1x.png"; path = "Hansel/framework/Hansel.framework/starFilled@1x.png"; sourceTree = "<group>"; };
+		090D1EF22F6D9E2A28B8EA38403C2812 /* EasyTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyTipView-prefix.pch"; sourceTree = "<group>"; };
+		0C0494DC5E6D6E10EE0B2A7CF5D48847 /* heart@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "heart@3x.png"; path = "Hansel/framework/Hansel.framework/heart@3x.png"; sourceTree = "<group>"; };
+		0DB034BA1452F3D6CCBDE34340893D19 /* Pods-Mars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mars.debug.xcconfig"; sourceTree = "<group>"; };
+		0F9874E2F7329CD070F29577AD41D1CB /* iohanseliOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iohanseliOS.bundle; path = "Hansel-iohanseliOS.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E9700F3B12E7CB7DD63DE8482CD00D /* EasyTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyTipView-dummy.m"; sourceTree = "<group>"; };
+		17BD0DBD3D2FCA41D1065E10BF424CC1 /* Hansel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hansel.xcconfig; sourceTree = "<group>"; };
+		1BE472D55B5A443BC6AD7DC956A43549 /* Pods-Mars-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mars-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F695271147713EEC255A3B831207C8A /* thumbup@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbup@1x.png"; path = "Hansel/framework/Hansel.framework/thumbup@1x.png"; sourceTree = "<group>"; };
+		31962031CAC32AB01FF39AABC0DAAC23 /* hotspot_question@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_question@1x.png"; path = "Hansel/framework/Hansel.framework/hotspot_question@1x.png"; sourceTree = "<group>"; };
+		40D7BA619C017F23AACBB6251B99BA3C /* star@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "star@3x.png"; path = "Hansel/framework/Hansel.framework/star@3x.png"; sourceTree = "<group>"; };
+		415D8E78C10ABE7DA38AF8A475FCB578 /* ximage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ximage@3x.png"; path = "Hansel/framework/Hansel.framework/ximage@3x.png"; sourceTree = "<group>"; };
+		429623CC30D810437E43F2526F798911 /* thumbupFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbupFilled@3x.png"; path = "Hansel/framework/Hansel.framework/thumbupFilled@3x.png"; sourceTree = "<group>"; };
+		45E50755876E0E68E881A5AD1F91C26E /* thumbupFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbupFilled@2x.png"; path = "Hansel/framework/Hansel.framework/thumbupFilled@2x.png"; sourceTree = "<group>"; };
+		4C08E9AF85600FB8655E96F275EDF1D4 /* checkmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@3x.png"; path = "Hansel/framework/Hansel.framework/checkmark@3x.png"; sourceTree = "<group>"; };
+		51257612FC4ABC9355F330C598E8A518 /* ResourceBundle-iohanseliOS-Hansel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-iohanseliOS-Hansel-Info.plist"; sourceTree = "<group>"; };
+		56FAC973540B6A690081A3A32980BD88 /* heartFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "heartFilled@3x.png"; path = "Hansel/framework/Hansel.framework/heartFilled@3x.png"; sourceTree = "<group>"; };
+		65622C99FB459AE56D7ED804F02249C9 /* hotspot_circle1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_circle1@3x.png"; path = "Hansel/framework/Hansel.framework/hotspot_circle1@3x.png"; sourceTree = "<group>"; };
+		687F35769A8385607C21EF052811590C /* thumbupFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbupFilled@1x.png"; path = "Hansel/framework/Hansel.framework/thumbupFilled@1x.png"; sourceTree = "<group>"; };
+		6BB723E5629668AD0CFB8B1DE9A7989E /* Pods-Mars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mars-umbrella.h"; sourceTree = "<group>"; };
+		6C1ACC37C608B1C3AA8BF4E8154C378C /* starFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "starFilled@2x.png"; path = "Hansel/framework/Hansel.framework/starFilled@2x.png"; sourceTree = "<group>"; };
+		73E2D9EE15FD2072DDA65B3F32E7A3BD /* ximage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ximage@2x.png"; path = "Hansel/framework/Hansel.framework/ximage@2x.png"; sourceTree = "<group>"; };
+		7D6C06B144D9330D7D7F4F0316B4273C /* heartFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "heartFilled@2x.png"; path = "Hansel/framework/Hansel.framework/heartFilled@2x.png"; sourceTree = "<group>"; };
+		899A1B6EAA6EFB821D9837C3D82F4A67 /* checkmark@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@1x.png"; path = "Hansel/framework/Hansel.framework/checkmark@1x.png"; sourceTree = "<group>"; };
+		8A63F6AA6A1D241970B6D28C2970A8B9 /* libEasyTipView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEasyTipView.a; path = libEasyTipView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3D8551E68ACB2DAAC167C85F5501CA /* heart@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "heart@1x.png"; path = "Hansel/framework/Hansel.framework/heart@1x.png"; sourceTree = "<group>"; };
+		99F16AB28288B3332FD4AF79EF5BEE29 /* Pods-Mars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mars.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9259CCAAB6F2EED5C03047C99AEEEC0 /* hotspot_question@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_question@2x.png"; path = "Hansel/framework/Hansel.framework/hotspot_question@2x.png"; sourceTree = "<group>"; };
+		ABE89588A33ABA9D594D2D3D9A92E7D6 /* heart@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "heart@2x.png"; path = "Hansel/framework/Hansel.framework/heart@2x.png"; sourceTree = "<group>"; };
+		B08C4D763EC1D61D6B7229057378D098 /* Pods-Mars-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mars-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1EBB259CEC782EF44121A0D3453086A /* EasyTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyTipView.modulemap; sourceTree = "<group>"; };
+		B3F63E8C896EB64F18F9275E76FCD7F0 /* hotspot_question@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_question@3x.png"; path = "Hansel/framework/Hansel.framework/hotspot_question@3x.png"; sourceTree = "<group>"; };
+		B5E950C53127C108ACADD3525EE9ACD9 /* thumbup@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbup@3x.png"; path = "Hansel/framework/Hansel.framework/thumbup@3x.png"; sourceTree = "<group>"; };
+		B6D4A1A182640855F170FC192C0B65BA /* star@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "star@1x.png"; path = "Hansel/framework/Hansel.framework/star@1x.png"; sourceTree = "<group>"; };
+		C0A444F70E45A1F064EFCEA5CC0508E3 /* hotspot_circle1@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_circle1@1x.png"; path = "Hansel/framework/Hansel.framework/hotspot_circle1@1x.png"; sourceTree = "<group>"; };
+		C17C1AC1B78BCE0DBE9B4147BAD26A76 /* heartFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "heartFilled@1x.png"; path = "Hansel/framework/Hansel.framework/heartFilled@1x.png"; sourceTree = "<group>"; };
+		C5815B2409698D9013C9AF0552A74941 /* EasyTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyTipView.swift; path = Source/EasyTipView.swift; sourceTree = "<group>"; };
+		C89F9FA561E1804B0D469B625F9CB289 /* hotspot_circle2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_circle2@2x.png"; path = "Hansel/framework/Hansel.framework/hotspot_circle2@2x.png"; sourceTree = "<group>"; };
+		C94C086A6DDCC35D98C71860D53B0AC4 /* hotspot_circle1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_circle1@2x.png"; path = "Hansel/framework/Hansel.framework/hotspot_circle1@2x.png"; sourceTree = "<group>"; };
+		CBF5171C139DAD587DD0D76A67E2A154 /* starFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "starFilled@3x.png"; path = "Hansel/framework/Hansel.framework/starFilled@3x.png"; sourceTree = "<group>"; };
+		D50044054FEBB3DFFBA54C158AEC6500 /* thumbup@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbup@2x.png"; path = "Hansel/framework/Hansel.framework/thumbup@2x.png"; sourceTree = "<group>"; };
+		D7771BD26E3DDBF16353953081E70CA7 /* star@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "star@2x.png"; path = "Hansel/framework/Hansel.framework/star@2x.png"; sourceTree = "<group>"; };
+		DB1FC9044C3B957E14F938D4197D9A2D /* ximage@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ximage@1x.png"; path = "Hansel/framework/Hansel.framework/ximage@1x.png"; sourceTree = "<group>"; };
+		E17678119697333702E9E09D22FA69C1 /* Pods-Mars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mars.modulemap"; sourceTree = "<group>"; };
+		E464B038827381B66945080211678493 /* Pods-Mars-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mars-resources.sh"; sourceTree = "<group>"; };
+		E55E231D4D635AC60ABF0AB4C4C0843D /* checkmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@2x.png"; path = "Hansel/framework/Hansel.framework/checkmark@2x.png"; sourceTree = "<group>"; };
+		E6907594C00505DE9B9D1CA4A6F62C0F /* libPods-Mars.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Mars.a"; path = "libPods-Mars.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D916EFF82B844BEA34DBBDE4FD2B87 /* EasyTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyTipView-umbrella.h"; sourceTree = "<group>"; };
+		E8A1C342CD573356136464756EB167CD /* EasyTipView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyTipView.xcconfig; sourceTree = "<group>"; };
+		FA059E2E249DC71AC3A4D405D3B3EA1A /* Pods-Mars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mars-dummy.m"; sourceTree = "<group>"; };
+		FB3BC4A53127B067A79B622C80C54492 /* hotspot_circle2@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_circle2@1x.png"; path = "Hansel/framework/Hansel.framework/hotspot_circle2@1x.png"; sourceTree = "<group>"; };
+		FB83384A596E45C18676BF6D1E4E2BDB /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
+		FCFEF51A53A17AA2B51174162EDCD0E4 /* hotspot_circle2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hotspot_circle2@3x.png"; path = "Hansel/framework/Hansel.framework/hotspot_circle2@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B2B79A3CF6CEA3BF6F67885A84834B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10DF11A92AC182A125C69D1219F90EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5ECDED0273DC00E38DB5D6300C4470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128E79587143D24A5D1947788E9C3858 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BD0DBD3D2FCA41D1065E10BF424CC1 /* Hansel.xcconfig */,
+				51257612FC4ABC9355F330C598E8A518 /* ResourceBundle-iohanseliOS-Hansel-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hansel";
+			sourceTree = "<group>";
+		};
+		236E1AD6C46E91C625F4FF16A09C6851 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1EBB259CEC782EF44121A0D3453086A /* EasyTipView.modulemap */,
+				E8A1C342CD573356136464756EB167CD /* EasyTipView.xcconfig */,
+				11E9700F3B12E7CB7DD63DE8482CD00D /* EasyTipView-dummy.m */,
+				090D1EF22F6D9E2A28B8EA38403C2812 /* EasyTipView-prefix.pch */,
+				E6D916EFF82B844BEA34DBBDE4FD2B87 /* EasyTipView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyTipView";
+			sourceTree = "<group>";
+		};
+		45333C6023826414A5DD24276BD1CDA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0081F7F946512152F9EC6C6BEBD4D7C9 /* Hansel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1DB3474E70E5A5B36B462894499A1B /* Pods-Mars */ = {
+			isa = PBXGroup;
+			children = (
+				E17678119697333702E9E09D22FA69C1 /* Pods-Mars.modulemap */,
+				B08C4D763EC1D61D6B7229057378D098 /* Pods-Mars-acknowledgements.markdown */,
+				1BE472D55B5A443BC6AD7DC956A43549 /* Pods-Mars-acknowledgements.plist */,
+				FA059E2E249DC71AC3A4D405D3B3EA1A /* Pods-Mars-dummy.m */,
+				0222C0BF9E6D29CA7E4B10A23D4BBD9F /* Pods-Mars-frameworks.sh */,
+				E464B038827381B66945080211678493 /* Pods-Mars-resources.sh */,
+				6BB723E5629668AD0CFB8B1DE9A7989E /* Pods-Mars-umbrella.h */,
+				0DB034BA1452F3D6CCBDE34340893D19 /* Pods-Mars.debug.xcconfig */,
+				99F16AB28288B3332FD4AF79EF5BEE29 /* Pods-Mars.release.xcconfig */,
+			);
+			name = "Pods-Mars";
+			path = "Target Support Files/Pods-Mars";
+			sourceTree = "<group>";
+		};
+		50DF8B2200ABA4960FB186A75CB7A538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76B75935738211BC58546294956C304C /* EasyTipView */,
+				BB1ABE6BCBE6AC0639A60F09AF471EB9 /* Hansel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55AAD87EB071191F6552506F001C6DBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				899A1B6EAA6EFB821D9837C3D82F4A67 /* checkmark@1x.png */,
+				E55E231D4D635AC60ABF0AB4C4C0843D /* checkmark@2x.png */,
+				4C08E9AF85600FB8655E96F275EDF1D4 /* checkmark@3x.png */,
+				8E3D8551E68ACB2DAAC167C85F5501CA /* heart@1x.png */,
+				ABE89588A33ABA9D594D2D3D9A92E7D6 /* heart@2x.png */,
+				0C0494DC5E6D6E10EE0B2A7CF5D48847 /* heart@3x.png */,
+				C17C1AC1B78BCE0DBE9B4147BAD26A76 /* heartFilled@1x.png */,
+				7D6C06B144D9330D7D7F4F0316B4273C /* heartFilled@2x.png */,
+				56FAC973540B6A690081A3A32980BD88 /* heartFilled@3x.png */,
+				C0A444F70E45A1F064EFCEA5CC0508E3 /* hotspot_circle1@1x.png */,
+				C94C086A6DDCC35D98C71860D53B0AC4 /* hotspot_circle1@2x.png */,
+				65622C99FB459AE56D7ED804F02249C9 /* hotspot_circle1@3x.png */,
+				FB3BC4A53127B067A79B622C80C54492 /* hotspot_circle2@1x.png */,
+				C89F9FA561E1804B0D469B625F9CB289 /* hotspot_circle2@2x.png */,
+				FCFEF51A53A17AA2B51174162EDCD0E4 /* hotspot_circle2@3x.png */,
+				31962031CAC32AB01FF39AABC0DAAC23 /* hotspot_question@1x.png */,
+				A9259CCAAB6F2EED5C03047C99AEEEC0 /* hotspot_question@2x.png */,
+				B3F63E8C896EB64F18F9275E76FCD7F0 /* hotspot_question@3x.png */,
+				B6D4A1A182640855F170FC192C0B65BA /* star@1x.png */,
+				D7771BD26E3DDBF16353953081E70CA7 /* star@2x.png */,
+				40D7BA619C017F23AACBB6251B99BA3C /* star@3x.png */,
+				045347FD73EB7E96ABE5DC267B907AB1 /* starFilled@1x.png */,
+				6C1ACC37C608B1C3AA8BF4E8154C378C /* starFilled@2x.png */,
+				CBF5171C139DAD587DD0D76A67E2A154 /* starFilled@3x.png */,
+				1F695271147713EEC255A3B831207C8A /* thumbup@1x.png */,
+				D50044054FEBB3DFFBA54C158AEC6500 /* thumbup@2x.png */,
+				B5E950C53127C108ACADD3525EE9ACD9 /* thumbup@3x.png */,
+				687F35769A8385607C21EF052811590C /* thumbupFilled@1x.png */,
+				45E50755876E0E68E881A5AD1F91C26E /* thumbupFilled@2x.png */,
+				429623CC30D810437E43F2526F798911 /* thumbupFilled@3x.png */,
+				DB1FC9044C3B957E14F938D4197D9A2D /* ximage@1x.png */,
+				73E2D9EE15FD2072DDA65B3F32E7A3BD /* ximage@2x.png */,
+				415D8E78C10ABE7DA38AF8A475FCB578 /* ximage@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76B75935738211BC58546294956C304C /* EasyTipView */ = {
+			isa = PBXGroup;
+			children = (
+				C5815B2409698D9013C9AF0552A74941 /* EasyTipView.swift */,
+				FB83384A596E45C18676BF6D1E4E2BDB /* UIKitExtensions.swift */,
+				236E1AD6C46E91C625F4FF16A09C6851 /* Support Files */,
+			);
+			name = EasyTipView;
+			path = EasyTipView;
+			sourceTree = "<group>";
+		};
+		BB1ABE6BCBE6AC0639A60F09AF471EB9 /* Hansel */ = {
+			isa = PBXGroup;
+			children = (
+				45333C6023826414A5DD24276BD1CDA8 /* Frameworks */,
+				55AAD87EB071191F6552506F001C6DBD /* Resources */,
+				128E79587143D24A5D1947788E9C3858 /* Support Files */,
+			);
+			name = Hansel;
+			path = Hansel;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				50DF8B2200ABA4960FB186A75CB7A538 /* Pods */,
+				F98F969A35EED7D32EE8301BC354B4BE /* Products */,
+				D857CA6258FCDACF5DC23391079D4605 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D857CA6258FCDACF5DC23391079D4605 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DB3474E70E5A5B36B462894499A1B /* Pods-Mars */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98F969A35EED7D32EE8301BC354B4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9874E2F7329CD070F29577AD41D1CB /* iohanseliOS.bundle */,
+				8A63F6AA6A1D241970B6D28C2970A8B9 /* libEasyTipView.a */,
+				E6907594C00505DE9B9D1CA4A6F62C0F /* libPods-Mars.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		443FB663CABB1DAB2342B3CFD21A04D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93951739D37A82CC092BFB895C32A7A7 /* Pods-Mars-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD1724F9CD81C1823B81E09656194E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BBD68BE2E7FAF113E3486679EF546A /* EasyTipView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		048D21E3C8151CD23D428D38093E1538 /* EasyTipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3C3230D1BFB352FB2B56A2986672AD /* Build configuration list for PBXNativeTarget "EasyTipView" */;
+			buildPhases = (
+				BDD1724F9CD81C1823B81E09656194E8 /* Headers */,
+				B6BE0B0F3A2C6F6EB6DEBAA97F6F655F /* Sources */,
+				A10DF11A92AC182A125C69D1219F90EE /* Frameworks */,
+				E5BE7E99D6B6B512F75BF6A94E02F899 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTipView;
+			productName = EasyTipView;
+			productReference = 8A63F6AA6A1D241970B6D28C2970A8B9 /* libEasyTipView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0F9737818AD2D5A3E90EFBD983DC148F /* Hansel-iohanseliOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1672DEEB0922832BB74BCB79BBC457 /* Build configuration list for PBXNativeTarget "Hansel-iohanseliOS" */;
+			buildPhases = (
+				06AC311C5E2FDC2B731D2B9434AF1472 /* Sources */,
+				FF5ECDED0273DC00E38DB5D6300C4470 /* Frameworks */,
+				8F7175EC91876188508EF02805E50BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hansel-iohanseliOS";
+			productName = "Hansel-iohanseliOS";
+			productReference = 0F9874E2F7329CD070F29577AD41D1CB /* iohanseliOS.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7E412FDC60CD44DE80B8567318B472DA /* Pods-Mars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65643BCD2AAD4EEA8B4A9BA657BDD53 /* Build configuration list for PBXNativeTarget "Pods-Mars" */;
+			buildPhases = (
+				443FB663CABB1DAB2342B3CFD21A04D0 /* Headers */,
+				2219A80FB6AA3740B457C59F3F0073EC /* Sources */,
+				97B2B79A3CF6CEA3BF6F67885A84834B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2836046278398C2F2BE7D2B61C94C69 /* PBXTargetDependency */,
+				3EDE37FD67F3302158A30DE49DF1DABC /* PBXTargetDependency */,
+			);
+			name = "Pods-Mars";
+			productName = "Pods-Mars";
+			productReference = E6907594C00505DE9B9D1CA4A6F62C0F /* libPods-Mars.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F98F969A35EED7D32EE8301BC354B4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048D21E3C8151CD23D428D38093E1538 /* EasyTipView */,
+				BCA496FBFD25CEC09E17FC3479985050 /* Hansel */,
+				0F9737818AD2D5A3E90EFBD983DC148F /* Hansel-iohanseliOS */,
+				7E412FDC60CD44DE80B8567318B472DA /* Pods-Mars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7175EC91876188508EF02805E50BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8266456F55A5BC56914F5883E0CBC8 /* checkmark@1x.png in Resources */,
+				2D24FACC24B45AD0B8F682A250694482 /* checkmark@2x.png in Resources */,
+				1221EC1BC2B602E5751D1EBCD1B6A098 /* checkmark@3x.png in Resources */,
+				6CE7048A85B0617691497A79F9ECD9EF /* heart@1x.png in Resources */,
+				2C50C276150F1AE4FBB2A1344022C850 /* heart@2x.png in Resources */,
+				D80E135E28E30D9E2C2ACBA74BB38FA7 /* heart@3x.png in Resources */,
+				574B1861CFFC1DB593EE69C06FF86214 /* heartFilled@1x.png in Resources */,
+				F506117F43E6E7972F96499CC67B3103 /* heartFilled@2x.png in Resources */,
+				9596D695D4BA43CE88CAA99D03177F6A /* heartFilled@3x.png in Resources */,
+				2CAE37ED4D9349120C1C12879B735A93 /* hotspot_circle1@1x.png in Resources */,
+				8E0DF115FEFA79E05477ED6A01E736F6 /* hotspot_circle1@2x.png in Resources */,
+				956E1087C5C2D4EF6654DC37A7FC781A /* hotspot_circle1@3x.png in Resources */,
+				C567487D28FDAC1191CCCFFF6CDA8A07 /* hotspot_circle2@1x.png in Resources */,
+				6FCE72BAFD724470546C61EECDAC57D9 /* hotspot_circle2@2x.png in Resources */,
+				F630CE0A5E5FCEB50BF1245B68F9256F /* hotspot_circle2@3x.png in Resources */,
+				E4E5838D06B0E0C600BA19B9DE3E8308 /* hotspot_question@1x.png in Resources */,
+				ACA41708343DD82DCF9533D89869E105 /* hotspot_question@2x.png in Resources */,
+				5FD09EF45E31AAA4F9F15957BE8A7E4C /* hotspot_question@3x.png in Resources */,
+				F4B21A962223C2F289BAB85BC2DEE4D5 /* star@1x.png in Resources */,
+				E8A4CFF3DBBEE7CE33EFF54C0F31B4DC /* star@2x.png in Resources */,
+				386F72625B5DAE576CDC9A48FD473BF5 /* star@3x.png in Resources */,
+				6FE4D8047E6B7610182C255D0AF1798C /* starFilled@1x.png in Resources */,
+				23E168D90A3873ED0F628BEA65F87EAF /* starFilled@2x.png in Resources */,
+				60620097C4A6FA4289ED3BAACDCE77A8 /* starFilled@3x.png in Resources */,
+				929C60CA5AC85DDB46B7B40CD458CDFB /* thumbup@1x.png in Resources */,
+				7A7C8DDF140FFEEF84007F34A137C627 /* thumbup@2x.png in Resources */,
+				33EF2A65EF26466B6E2C2C51C6B5D067 /* thumbup@3x.png in Resources */,
+				C4B6BF748AC2D055CF9D86FDF0627DA5 /* thumbupFilled@1x.png in Resources */,
+				3276BE9E5389580BDA769BAF4D2A7788 /* thumbupFilled@2x.png in Resources */,
+				401A277473C4218BD9F16D510E1E3B7F /* thumbupFilled@3x.png in Resources */,
+				0DBBAD19978C360FC79D37EA4A8A06B6 /* ximage@1x.png in Resources */,
+				8875A7B9D5EB0ACD50D8A57F3B472F71 /* ximage@2x.png in Resources */,
+				85D51315D56BBA4761C3470A524EFA7D /* ximage@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5BE7E99D6B6B512F75BF6A94E02F899 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/EasyTipView/EasyTipView.modulemap",
+				"${PODS_ROOT}/Headers/Public/EasyTipView/EasyTipView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/EasyTipView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EasyTipView/EasyTipView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/EasyTipView/EasyTipView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06AC311C5E2FDC2B731D2B9434AF1472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2219A80FB6AA3740B457C59F3F0073EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E613CA585162F824E049043F6C71612 /* Pods-Mars-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE0B0F3A2C6F6EB6DEBAA97F6F655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FAF212F745448DE6A238F075AE3044 /* EasyTipView-dummy.m in Sources */,
+				0BE49A53D14DB497E53BCB7507527515 /* EasyTipView.swift in Sources */,
+				E510A3C81C77A089FBEEB6EF31396EC8 /* UIKitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12BF0D13D2C09BF4133D2CEE673D2A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Hansel-iohanseliOS";
+			target = 0F9737818AD2D5A3E90EFBD983DC148F /* Hansel-iohanseliOS */;
+			targetProxy = AA95912200CD41AE17A31E5F06B79943 /* PBXContainerItemProxy */;
+		};
+		3EDE37FD67F3302158A30DE49DF1DABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hansel;
+			target = BCA496FBFD25CEC09E17FC3479985050 /* Hansel */;
+			targetProxy = 0CDB1ED9028A284262DAB2A139362650 /* PBXContainerItemProxy */;
+		};
+		B2836046278398C2F2BE7D2B61C94C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyTipView;
+			target = 048D21E3C8151CD23D428D38093E1538 /* EasyTipView */;
+			targetProxy = EE0026F50FDADD1453D575F9FE3F0E3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A956668C3E39C036F7350DAF67D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB034BA1452F3D6CCBDE34340893D19 /* Pods-Mars.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mars/Pods-Mars.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AF4143A10009E8E75B99DB5D674719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A1C342CD573356136464756EB167CD /* EasyTipView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyTipView/EasyTipView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/EasyTipView/EasyTipView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EasyTipView;
+				PRODUCT_NAME = EasyTipView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E2A5A2C5E8A0FC2988330B0BE10853F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BD0DBD3D2FCA41D1065E10BF424CC1 /* Hansel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Hansel";
+				INFOPLIST_FILE = "Target Support Files/Hansel/ResourceBundle-iohanseliOS-Hansel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = iohanseliOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4F1B5218B3FEF0C3FF7362AA686D5D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BD0DBD3D2FCA41D1065E10BF424CC1 /* Hansel.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABBA8019D05678230CCB3525AA36F84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F16AB28288B3332FD4AF79EF5BEE29 /* Pods-Mars.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mars/Pods-Mars.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB534684DDDAEEDF5225AD5DCAC6ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BD0DBD3D2FCA41D1065E10BF424CC1 /* Hansel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Hansel";
+				INFOPLIST_FILE = "Target Support Files/Hansel/ResourceBundle-iohanseliOS-Hansel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = iohanseliOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CFB7242324937F7A1A9AB359B32A7803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BD0DBD3D2FCA41D1065E10BF424CC1 /* Hansel.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E971171FFEE7CB52070B603E58D3B5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A1C342CD573356136464756EB167CD /* EasyTipView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyTipView/EasyTipView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/EasyTipView/EasyTipView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EasyTipView;
+				PRODUCT_NAME = EasyTipView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1672DEEB0922832BB74BCB79BBC457 /* Build configuration list for PBXNativeTarget "Hansel-iohanseliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB534684DDDAEEDF5225AD5DCAC6ABE /* Debug */,
+				4E2A5A2C5E8A0FC2988330B0BE10853F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65643BCD2AAD4EEA8B4A9BA657BDD53 /* Build configuration list for PBXNativeTarget "Pods-Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A956668C3E39C036F7350DAF67D3EF /* Debug */,
+				ABBA8019D05678230CCB3525AA36F84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94DF378C5E80DEE6AEB7CD43EA8D48D /* Build configuration list for PBXAggregateTarget "Hansel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1B5218B3FEF0C3FF7362AA686D5D0F /* Debug */,
+				CFB7242324937F7A1A9AB359B32A7803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3C3230D1BFB352FB2B56A2986672AD /* Build configuration list for PBXNativeTarget "EasyTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E971171FFEE7CB52070B603E58D3B5C2 /* Debug */,
+				42AF4143A10009E8E75B99DB5D674719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

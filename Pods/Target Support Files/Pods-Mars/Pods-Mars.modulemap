@@ -1,0 +1,6 @@
+module Pods_Mars {
+  umbrella header "Pods-Mars-umbrella.h"
+
+  export *
+  module * { export * }
+}

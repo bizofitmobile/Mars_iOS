@@ -1,0 +1,29 @@
+PODS:
+  - EasyTipView (2.0.4)
+  - Hansel (8.2.3)
+
+DEPENDENCIES:
+  - EasyTipView (~> 2.0.4)
+  - Hansel (from `https://bitbucket.org/hanselio/hansel.io-ios`, tag `8.2.3`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyTipView
+
+EXTERNAL SOURCES:
+  Hansel:
+    :git: https://bitbucket.org/hanselio/hansel.io-ios
+    :tag: 8.2.3
+
+CHECKOUT OPTIONS:
+  Hansel:
+    :git: https://bitbucket.org/hanselio/hansel.io-ios
+    :tag: 8.2.3
+
+SPEC CHECKSUMS:
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  Hansel: 1d7f516b652243900882ae09069d395246e47f50
+
+PODFILE CHECKSUM: b44eb82bf4290db9fea9b0b9f678ef8b5ad48df5
+
+COCOAPODS: 1.7.5

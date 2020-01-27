@@ -1,0 +1,45 @@
+{
+  "name": "Hansel",
+  "version": "8.2.3",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "summary": "Making applications hyper agile",
+  "description": "Hanselio framework powers developers to rapidly experiment, iterate and stabilize ios apps",
+  "homepage": "https://hansel.io/",
+  "license": {
+    "type": "Commercial",
+    "text": "See http://www.hansel.io/"
+  },
+  "authors": {
+    "hansel.io": "hi@hansel.io"
+  },
+  "documentation_url": "http://hansel.io/",
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+    "USER_HEADER_SEARCH_PATHS": "${PODS_ROOT}/Hansel/**"
+  },
+  "source": {
+    "git": "https://bitbucket.org/hanselio/hansel.io-ios.git",
+    "tag": "8.2.3"
+  },
+  "ios": {
+    "vendored_frameworks": "Hansel/framework/Hansel.framework",
+    "frameworks": [
+      "CFNetwork",
+      "Security"
+    ]
+  },
+  "resource_bundles": {
+    "iohanseliOS": [
+      "Hansel/publickey.der",
+      "Hansel/Info.plist",
+      "Hansel/**/*.{png}"
+    ]
+  },
+  "preserve_paths": "Hansel/**/*",
+  "libraries": [
+    "icucore",
+    "sqlite3"
+  ]
+}
